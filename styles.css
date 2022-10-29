@@ -1,7 +1,7 @@
 body {
-  background-color: aqua;
+  background-color: white;
 
-  color: white;
+  color: black;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 2px;
 }
@@ -13,7 +13,7 @@ body {
 
   margin-top: 10%;
   height: auto;
-  max-width: 100px;
+  max-width: 150px;
 
   border-radius: 50%;
 }
@@ -45,11 +45,27 @@ body {
 a {
   text-decoration: none;
 
-  color: purple;
+  color: red(128, 98, 0);
   transition: color 1s;
 }
 
 a:hover {
   color: black;
   background-color: white;
+}
+p.newton {
+ color: gold;
+ font-size: 25px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+p.ingressive {
+  width: 50px;
+  height: 50px;
+  image-resolution: 15px;
+}
+p.grey {
+  color: gray;
+  background-color: white;
+  text-align: left;
+  font-size: large;
 }
